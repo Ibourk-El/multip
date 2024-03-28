@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #EEE;
+}
+
+select,input,button,#history{
+  padding: 10px;
+}
+
+#history{
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button{
+  background-color: #aaa;
+  transition: 0.5;
+}
+button:hover{
+  background-color: #ccc;
+}
+
+.res{
+  font-size: 16px;
+    font-weight: bold;
+}
